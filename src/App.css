@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 50%;
+  margin: 50px auto;
+}
+.search {
+  display: flex;
+}
+.search input {
+  padding: 10px;
+  width: 100%;
+  background-color: #f2f5f0;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.search button {
+  padding: 10px;
+  border-radius: 5px;
+}
+.bookFinder {
+  display: flex;
+  padding: 10px;
+}
+.bookDetails {
+  margin-left: 15px;
+}
+.bookDetails h1 {
+  margin-bottom: -5px;
+}
+.published {
+  margin-left: 20px;
+}
+.published small {
+  margin-right: 15px;
+}
+.bookCover img {
+  width: 90px;
+  height: auto;
+}
+.descripthion p {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: justify;
+  text-indent: 30px;
+}
